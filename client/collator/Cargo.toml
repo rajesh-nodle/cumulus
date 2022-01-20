@@ -6,11 +6,11 @@ edition = "2021"
 
 [dependencies]
 # Substrate dependencies
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+sp-runtime = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-core = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-consensus = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-api = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-client-api = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
 
 # Polkadot dependencies
 polkadot-primitives = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13" }
@@ -38,8 +38,8 @@ cumulus-test-runtime = { path = "../../test/runtime" }
 cumulus-test-client = { path = "../../test/client" }
 # Substrate dependencies
 
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-tracing = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+sp-state-machine = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-tracing = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
 
 # Other dependencies
 async-trait = "0.1.42"

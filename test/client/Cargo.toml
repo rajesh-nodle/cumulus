@@ -5,23 +5,23 @@ authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
 
 [dependencies]
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-executor = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-executor-common = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-substrate-test-client = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+sc-service = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-consensus = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-block-builder = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-executor = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-executor-common = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+substrate-test-client = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-runtime = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-core = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-api = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-keyring = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-blockchain = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-inherents = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-io = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-timestamp = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+frame-system = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+pallet-transaction-payment = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+pallet-balances = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
 
 # Cumulus deps
 cumulus-test-runtime = { path = "../runtime" }

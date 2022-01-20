@@ -7,22 +7,22 @@ edition = "2021"
 
 [dependencies]
 # Substrate dependencies
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-application-crypto = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-consensus-slots = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-telemetry = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-substrate-prometheus-endpoint = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+sp-consensus = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-inherents = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-runtime = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-core = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-blockchain = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-block-builder = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-api = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-consensus-aura = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-keystore = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sp-application-crypto = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-client-api = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-consensus-aura = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-consensus-slots = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-telemetry = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+sc-consensus = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
+substrate-prometheus-endpoint = { git = "https://github.com/rajesh-nodle/substrate.git", branch = "shamb0/test/polkadot-v0.9.13" }
 
 # Polkadot dependencies
 polkadot-client = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13" }
